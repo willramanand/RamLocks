@@ -1,0 +1,14 @@
+name: RamLocks
+version: '${project.version}'
+main: com.gmail.willramanand.RamLocks.RamLocks
+api-version: 1.18
+authors: [ WillRam ]
+description: Simple locking system for containers and doors for your paper server.
+website: willramanand.github.io
+commands:
+  lock:
+    description: Lock a container
+    usage: /<command>
+  unlock:
+    description: Unlock a container
+    usage: /<command>
